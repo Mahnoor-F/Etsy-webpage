@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    border: border-box;
+}
+
+/**navbar**/
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: #222222;
+    height: 70px;
+    font-family: arial;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 80px;
+}
+.logo{
+    height: 40px;
+    width: 70px;
+    background-image: url("image.png");
+    background-size: contain;
+    
+}
+
+.options{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.border:hover{
+    color: orangered;
+}
+
+.nav-search{
+    height: 40px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 3px solid #222222;
+}
+
+.nav-search:hover{
+    border: 3px solid orangered;
+}
+
+.searchbar{
+    height: 40px;
+    width:750px;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border: none;
+    font-size: 1rem;
+    padding-left: 15px;
+
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 159, 7);
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+
+}
+a{
+    font-size: 0.95rem;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.icon:hover{
+    color: rgb(0, 89, 255);
+}
+
+/**For navbar 2**/
+
+.navbar2{
+    height: 40px;
+    border-bottom: 1px solid rgb(216, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 30px;
+    width: 700px;
+    
+}
+
+/**For body**/
+
+.heading{
+    text-align: center;
+    font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    font-size: 1.7rem;
+}
+
+.category{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.category p{
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-weight: 800;
+}
+.size{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.size :hover{
+    border-bottom: 1px solid #222222;
+}
+
+.heading2{
+    font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+.shop-now{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.box{
+    height: 280px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid rgb(204, 191, 191);
+    border-radius: 20px;
+}
+.box p{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.buy{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/**For footer**/
+
+.Etsy{
+    background-color: rgb(241, 234, 200);
+    height: 510px;
+}
+.Etsy2{
+    height: 130px;
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    padding-top: 40px;
+}
+.Etsy2 h2{
+    font-size: 50px;
+}
+.Etsy2 p{
+    font-size: 10px;
+}
+.msg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 35px;
+    font-family: Arial;
+}
+
+.help{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 25px;
+}
+.help h4{
+    font-size: 25px;
+}
+.help button{
+    border-radius: 50px;
+    height: 50px;
+    width: 170px;
+    border: 2px solid black;
+}
+.bottom{
+    height: 130px;
+    background-color: rgb(163, 216, 236);
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.sign-in{
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding-left: 10px;
+}
